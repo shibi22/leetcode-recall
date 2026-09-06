@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/find-peak-element/
 
-Solved on: 2026-08-06T14:29:44.000Z
+Solved on: 2026-09-06T10:13:32.000Z
 Language: java
 Difficulty: Medium
 Tags: Array, Binary Search
