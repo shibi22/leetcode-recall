@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/sqrtx/
 
-Solved on: 2026-09-06T10:39:45.000Z
+Solved on: 2026-09-06T10:40:29.000Z
 Language: java
 Difficulty: Easy
 Tags: Math, Binary Search, Newton's Method
