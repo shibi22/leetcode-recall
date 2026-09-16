@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
-Solved on: 2026-09-16T13:56:02.000Z
+Solved on: 2026-09-16T15:08:24.000Z
 Language: java
 Difficulty: Medium
 Tags: Linked List, Two Pointers
