@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/valid-parentheses/
 
-Solved on: 2026-09-07T13:24:48.000Z
+Solved on: 2026-10-01T18:11:15.000Z
 Language: java
 Difficulty: Easy
 Tags: String, Stack, Bracket Sequences
