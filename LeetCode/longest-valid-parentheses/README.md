@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/longest-valid-parentheses/
 
-Solved on: 2026-09-07T19:10:25.000Z
+Solved on: 2026-10-03T14:21:56.000Z
 Language: java
 Difficulty: Hard
 Tags: String, Dynamic Programming, Stack, Bracket Sequences
