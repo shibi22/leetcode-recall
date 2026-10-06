@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
-Solved on: 2025-06-20T17:43:07.000Z
+Solved on: 2026-10-06T14:45:49.000Z
 Language: java
 Difficulty: Medium
 Tags: Hash Table, String, Sliding Window
