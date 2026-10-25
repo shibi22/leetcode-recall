@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/contains-duplicate/
 
-Solved on: 2026-08-15T14:12:56.000Z
+Solved on: 2026-10-25T12:28:29.000Z
 Language: java
 Difficulty: Easy
 Tags: Array, Hash Table, Sorting
