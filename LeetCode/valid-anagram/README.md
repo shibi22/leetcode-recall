@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/valid-anagram/
 
-Solved on: 2026-08-16T11:32:57.000Z
+Solved on: 2026-10-25T17:11:26.000Z
 Language: java
 Difficulty: Easy
 Tags: Hash Table, String, Sorting
