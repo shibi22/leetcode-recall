@@ -1,10 +1,17 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        HashMap<Integer,Integer> map = new HashMap<>();
-        //testing this solution for leet code sync
-        for(int i =0; i < nums.length; i++){
-            if(map.containsKey(target - nums[i])){
-                return new int[] {i,map.get(target - nums[i])};
+        
+        Map<Integer,Integer> map = new HashMap<>();
+        int result[] = new int[2];
+        //target - i = result
+        // result + i = target
+        for(int i = 0 ; i < nums.length; i++){
+
+            int balance = target - nums[i];
+
+            if(map.containsKey(balance)){
+                result[0] = map.get(balance);
+                result[1] = i;
             }
 
             else{
@@ -13,6 +20,6 @@ class Solution {
         }
 
 
-        return new int[] {-1,-1};
+        return result;
     }
 }
