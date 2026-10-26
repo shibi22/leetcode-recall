@@ -4,38 +4,44 @@ class Solution {
 
         boolean hasOne = false;
 
-        for(int num : nums){
-            if(num == 1){
+       for(int num : nums){
+
+            if(num ==1){
                 hasOne = true;
-                break;
             }
-        }
 
-        if(!hasOne){
-            return 1;
-        }
+        } if(!hasOne) return 1;
 
-         // Remove irrelevant values
-        for (int i = 0; i < n; i++) {
-            if (nums[i] <= 0 || nums[i] > n) {
+        
+        //remove irrelent elements
+
+        for(int i = 0 ; i < nums.length; i++){
+
+            if(nums[i] <= 0 || nums[i] > n){
                 nums[i] = 1;
             }
         }
-        
-        //mark numbers that exist
-         for (int i = 0; i < n; i++) {
-            int value = Math.abs(nums[i]);
-            int index = value - 1 ;
+
+
+        //scan the array to mark the correct elements
+
+
+        for(int i = 0; i < nums.length; i++){
+            int value = nums[i];
+            int index = Math.abs(value) - 1;
             nums[index] = -Math.abs(nums[index]);
         }
+      
+            //scan the array to find the missing posstive integer
+       for(int i = 0 ; i < nums.length; i++){
 
-
-        //find the 1st unmarked number
-         for (int i = 0; i < n; i++) {
             if(nums[i] > 0){
                 return i +1;
             }
+        
         }
-            return n+1;
+
+      return n + 1;    
+
     }
 }
