@@ -22,7 +22,12 @@ class Solution {
     Map<Node , Node> map = new HashMap<>();
     public Node cloneGraph(Node node) {
         if(node == null) return null;
-        Node newNode = new Node(node.val);
+
+        if(map.containsKey(node)){
+            return node;
+        }
+          Node newNode = new Node(node.val);
+
         map.put(node , newNode);
 
         for(Node neighbors : node.neighbors){
