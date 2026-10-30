@@ -17,7 +17,7 @@ class Solution {
             }
         }
 
-        return count++;
+        return count;
     }
 
     private void dfs(char[][] grid , int i , int j){
