@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/number-of-islands/
 
-Solved on: 2026-10-30T16:03:11.000Z
+Solved on: 2026-10-30T16:04:00.000Z
 Language: java
 Difficulty: Medium
 Tags: Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
