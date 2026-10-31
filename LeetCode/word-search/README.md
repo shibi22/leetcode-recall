@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/word-search/
 
-Solved on: 2026-10-31T18:30:05.000Z
+Solved on: 2026-10-31T18:34:49.000Z
 Language: java
 Difficulty: Medium
 Tags: Array, String, Backtracking, Depth-First Search, Matrix
