@@ -1,55 +1,52 @@
 class Solution {
-
     public boolean exist(char[][] board, String word) {
+        
+        char initialChar = word.charAt(0);
 
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board[0].length; j++) {
+            for(int i = 0; i < board.length; i++){
 
-                if (board[i][j] == word.charAt(0)) {
+                for(int j = 0; j < board[0].length; j++){
 
-                    if (dfs(board, word, i, j, 0)) {
-                        return true;
+                    if(board[i][j] == initialChar){
+
+                        if(dfs(board , word , i , j, 0)){
+                            return true;
+                        }
                     }
                 }
             }
-        }
+    
 
         return false;
     }
 
-    private boolean dfs(char[][] board, String word,
-                        int row, int col, int index) {
 
-        // 1. Boundary check
-        if (row < 0 || row >= board.length ||
-            col < 0 || col >= board[0].length) {
+    private boolean dfs(char[][] board, String word , int i , int j , int index){
+        int n = board.length;
+        int m = board[0].length;
+
+        
+
+
+
+        if(i >= n || i < 0 || j >= m || j < 0 || board[i][j] != word.charAt(index)){
             return false;
         }
 
-        // 2. Character mismatch or already visited
-        if (board[row][col] != word.charAt(index)) {
-            return false;
-        }
+                if(index == word.length() -1) return true;
+                
+        char temp = word.charAt(index);
+        board[i][j] = '#';
 
-        // 3. Entire word matched
-        if (index == word.length() - 1) {
-            return true;
-        }
-
-        // 4. Mark current cell as visited
-        char original = board[row][col];
-        board[row][col] = '#';
-
-        // 5. Explore four directions
         boolean found =
-                dfs(board, word, row + 1, col, index + 1) ||
-                dfs(board, word, row - 1, col, index + 1) ||
-                dfs(board, word, row, col + 1, index + 1) ||
-                dfs(board, word, row, col - 1, index + 1);
+            dfs(board, word, i + 1, j, index + 1) ||
+            dfs(board, word, i - 1, j, index + 1) ||
+            dfs(board, word, i, j + 1, index + 1) ||
+            dfs(board, word, i, j - 1, index + 1);
 
-        // 6. Backtrack: restore original character
-        board[row][col] = original;
+            // 6. Restore
+            board[i][j] = temp;
 
-        return found;
+    return found;
     }
 }
