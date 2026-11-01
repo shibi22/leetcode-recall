@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/word-ladder/
 
-Solved on: 2026-11-01T15:54:24.000Z
+Solved on: 2026-11-01T16:48:02.000Z
 Language: java
 Difficulty: Hard
 Tags: Hash Table, String, Breadth-First Search, Bidirectional Search
