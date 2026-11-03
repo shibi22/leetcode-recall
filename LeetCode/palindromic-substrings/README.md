@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/palindromic-substrings/
 
-Solved on: 2026-09-12T16:35:07.000Z
+Solved on: 2026-11-03T18:01:29.000Z
 Language: java
 Difficulty: Medium
 Tags: Two Pointers, String, Dynamic Programming
