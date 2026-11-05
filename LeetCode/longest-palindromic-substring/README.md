@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/longest-palindromic-substring/
 
-Solved on: 2026-09-12T16:21:44.000Z
+Solved on: 2026-11-05T19:31:44.000Z
 Language: java
 Difficulty: Medium
 Tags: Two Pointers, String, Dynamic Programming, Manacher
