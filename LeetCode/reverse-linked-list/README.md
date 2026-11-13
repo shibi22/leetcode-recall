@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/reverse-linked-list/
 
-Solved on: 2026-09-15T16:22:29.000Z
+Solved on: 2026-11-13T15:29:57.000Z
 Language: java
 Difficulty: Easy
 Tags: Linked List, Recursion
