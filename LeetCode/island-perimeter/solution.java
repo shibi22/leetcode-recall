@@ -20,7 +20,7 @@ class Solution {
                     if(row < grid.length-1){
                         if(grid[row+1][col] == 1){
                         sharedSides++;
-                    }
+                       }
                     }
                  }
              }
