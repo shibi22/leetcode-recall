@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/island-perimeter/
 
-Solved on: 2026-10-27T19:10:28.000Z
+Solved on: 2026-11-16T17:52:29.000Z
 Language: java
 Difficulty: Easy
 Tags: Array, Depth-First Search, Breadth-First Search, Matrix
