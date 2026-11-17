@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/fibonacci-number/
 
-Solved on: 2026-08-11T15:09:49.000Z
+Solved on: 2026-11-17T15:13:43.000Z
 Language: java
 Difficulty: Easy
 Tags: Math, Dynamic Programming, Recursion, Memoization
