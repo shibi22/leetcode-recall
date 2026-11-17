@@ -1,21 +1,20 @@
 class Solution {
 
-    Map<Integer,Integer> memo = new HashMap<>();
-
-        public int fib(int n) {
+    public int fib(int n) {
     
         if(n <= 1)  return n;
 
-        if(memo.containsKey(n)){
+        int past = 0;
+        int prev = 1;
+        int current = 0;
 
-             return memo.get(n);
-         }
+        for(int i =2; i <=n; i++){
 
-         int result = fib(n-1) + fib(n-2);
-         memo.put(n,result);
-
-
-        return result;
- 
+            current = past + prev;
+            past = prev;
+            prev = current;
+        }
+       
+        return current;
     }
 }
