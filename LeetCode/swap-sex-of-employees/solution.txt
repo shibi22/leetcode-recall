@@ -1,0 +1,8 @@
+# Write your MySQL query statement below
+
+update Salary 
+SET sex = Case
+    WHEN sex = 'f' then 'm'
+    When sex = 'm' then 'f'
+ END
+ where  sex in('m','f');
