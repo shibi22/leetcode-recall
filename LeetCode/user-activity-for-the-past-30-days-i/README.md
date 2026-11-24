@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/user-activity-for-the-past-30-days-i/
 
-Solved on: 2026-11-22T18:11:27.000Z
+Solved on: 2026-11-24T17:27:17.000Z
 Language: mysql
 Difficulty: Easy
 Tags: Database
