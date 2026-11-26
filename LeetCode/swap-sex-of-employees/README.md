@@ -2,7 +2,7 @@
 
 Problem: https://leetcode.com/problems/swap-sex-of-employees/
 
-Solved on: 2026-11-25T16:40:44.000Z
+Solved on: 2026-11-26T16:24:44.000Z
 Language: mysql
 Difficulty: Easy
 Tags: Database
